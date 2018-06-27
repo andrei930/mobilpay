@@ -1,7 +1,6 @@
 # Mobilpay
 
-Laravel 5 mobilpay wrapper around omnipay with omnipay-mobilpay driver Edit
-Add topics
+Laravel 5 (5.6 supported) mobilpay wrapper around omnipay with omnipay-mobilpay driver 
 
 ## Table of Contents
 
@@ -25,14 +24,13 @@ Add topics
 
 ### Composer
 
-Add Laravel Localization to your `composer.json` file.
+Add to your `composer.json` file.
 
 ```json
 {
     "require": {
-        "omnipay/common": "~2.0",
-        "business-mastery/omnipay-mobilpay": "~1.0",
-        "adrianbarbos/mobilpay": "~1.0.0"
+        "andrei930/mobilpay": "~1.1.0",
+        "php-http/guzzle6-adapter": "~1.1.1",
     }
 }
 ```
