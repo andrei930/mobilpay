@@ -29,8 +29,7 @@ Add to your `composer.json` file.
 ```json
 {
     "require": {
-        "andrei930/mobilpay": "~1.1.0",
-        "php-http/guzzle6-adapter": "~1.1.1",
+        "andrei930/mobilpay": "^1.1.0"
     }
 }
 ```
